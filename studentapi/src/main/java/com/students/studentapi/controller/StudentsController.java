@@ -12,7 +12,8 @@ import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
-import com.students.studentapi.model.Students;
+import com.students.studentapi.dto.StudentsRequestDto;
+import com.students.studentapi.dto.StudentsResponseDto;
 import com.students.studentapi.service.StudentsService;
 
 import jakarta.validation.Valid;
@@ -25,22 +26,22 @@ public class StudentsController {
     private StudentsService service;
 
     @GetMapping
-    public List<Students> Students(){
+    public List<StudentsResponseDto> Students(){
         return service.getStudents();
     }
 
     @GetMapping("/{id}")
-    public Students student(@PathVariable int id){
+    public StudentsResponseDto student(@PathVariable int id){
         return service.getStudent(id);
     }
 
     @PostMapping
-    public Students create(@Valid @RequestBody Students student){
+    public StudentsResponseDto create(@Valid @RequestBody StudentsRequestDto student){
         return service.addStudent(student);
     }
 
     @PutMapping("{id}")
-    public Students update(@Valid @RequestBody Students student, @PathVariable int id){
+    public StudentsResponseDto update(@Valid @RequestBody StudentsRequestDto student, @PathVariable int id){
         return service.updateStudent(student, id);
     }
 
