@@ -2,6 +2,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "StudentapiApplication",
+            "request": "launch",
+            "mainClass": "StudentapiApplication",
+            "projectName": "studentapi"
+        },
+        {
+            "type": "java",
             "name": "Spring Boot-StudentapiApplication<studentapi>",
             "request": "launch",
             "cwd": "${workspaceFolder}",
