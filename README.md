@@ -38,6 +38,16 @@ To explore and test the API:
 
 ---
 
+## 📸 API Documentation Preview
+
+The Student API is documented using Swagger UI.
+
+<img src="screenshots/swagger-ui-1.png" width="800" />
+<img src="screenshots/swagger-ui-2.png" width="800" />
+
+*Swagger UI interface used to explore and test the REST endpoints.*
+
+
 ## 🧪 Swagger UI Usage Instructions
 
 Swagger UI provides a complete interactive API console.
