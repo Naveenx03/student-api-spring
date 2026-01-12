@@ -13,8 +13,7 @@ There is **no frontend UI** — the application is meant to be consumed via API 
 ## 🌐 Live Deployment URL
 
 **Base URL:**  
-https://mysterious-mariam-naveen-g-07500c25.koyeb.app/students
-
+https://student-api-spring.onrender.com/students
 
 > ⚠️ **Important:**  
 > Visiting the base URL (`/`) will show a **blank page by design**.  
@@ -30,7 +29,7 @@ To explore and test the API:
 
 1. Open your browser
 2. Navigate to the **Swagger UI endpoint**:
-	https://mysterious-mariam-naveen-g-07500c25.koyeb.app/swagger-ui/index.html
+	https://student-api-spring.onrender.com/swagger-ui/index.html
 3. Use the interactive interface to:
 - View all available endpoints
 - Read request/response schemas
@@ -85,7 +84,7 @@ This is the **recommended way** for recruiters and reviewers to test the applica
 - **Spring Data JPA**
 - **MySQL** (Aiven Cloud – managed database)
 - **Swagger / OpenAPI** for API documentation
-- **Koyeb** for cloud deployment
+- **Render** for cloud deployment
 
 ---
 
